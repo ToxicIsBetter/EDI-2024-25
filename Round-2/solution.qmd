@@ -1,0 +1,37 @@
+---
+title: Altruize
+subtitle: Making generosity personal
+format:
+  html:
+    theme: darkly
+    toc: true
+---
+
+
+## Overview
+
+Bringing Charities and potential patrons on the same platform and matching them based on their profiles and objectives.
+
+## Features
+
+- Profile creation
+- AI based match making
+- Donation tracking
+- Dynaminic leaderboards
+- tax benifits
+
+## Advantages
+
+- Transparency (shows the companies what they are donating for and keep them updated on their progress)
+- Dashboard (shows which companies donated how much and how those contributions were used)
+- Tax cuts (When donating, companies can see how much they can save on taxes, provding another incentive to donate)
+- Competitive nature of leaderboards incentivizes companies to donate more
+
+
+## Drawbacks
+- Hard to get started (they platform requires that many companies and charities register)
+
+## sol for drawback
+- better pr
+- verified charities
+- transparency and accountability
