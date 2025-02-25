@@ -28,7 +28,7 @@ nav {
 }
 
 nav.scrolled {
-  background-color: #001f3f; /* Darker blue when scrolled */
+  background-color: #001f3f;
 }
 
 .logo img {
@@ -49,8 +49,12 @@ nav ul li a {
   transition: color 0.3s ease;
 }
 
+nav ul li a i {
+  margin-right: 5px;
+}
+
 nav ul li a:hover {
-  color: #00bfff; /* Bright blue accent */
+  color: #00bfff;
 }
 
 /* Mobile Menu Toggle */
@@ -139,6 +143,16 @@ section h2 {
   text-transform: uppercase;
 }
 
+section h2 i {
+  margin-right: 10px;
+}
+
+section h3 {
+  font-size: 1.5rem;
+  margin: 20px 0 10px;
+  color: #00bfff;
+}
+
 section p {
   font-size: 1.2rem;
   max-width: 900px;
@@ -148,6 +162,7 @@ section p {
 ul {
   list-style-type: none;
   padding: 0;
+  margin-top: 20px;
 }
 
 ul li {
@@ -155,5 +170,76 @@ ul li {
   margin: 10px 0;
 }
 
+ul li i {
+  margin-right: 10px;
+}
+
+/* Chart Section */
+#chart {
+  padding: 40px 20px;
+}
+
+#chart canvas {
+  max-width: 100%;
+  background-color: #111;
+  border-radius: 8px;
+  padding: 10px;
+}
+
 /* Footer */
-footer
+footer {
+  background: #000;
+  color: #666;
+  text-align: center;
+  padding: 40px 20px;
+  border-top: 1px solid #333;
+  font-size: 1rem;
+}
+
+footer a {
+  color: #00bfff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    background: #001f3f;
+    position: fixed;
+    top: 70px;
+    right: -100%;
+    width: 200px;
+    transition: right 0.3s ease;
+    height: calc(100vh - 70px);
+    padding-top: 20px;
+  }
+
+  nav ul.active {
+    right: 0;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .hero h1 {
+    font-size: 3rem;
+  }
+
+  .hero p {
+    font-size: 1.1rem;
+  }
+
+  section {
+    padding: 40px 15px;
+  }
+
+  footer {
+    font-size: 0.9rem;
+  }
+}
