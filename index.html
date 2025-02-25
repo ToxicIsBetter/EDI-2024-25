@@ -1,74 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Altruize - Revolutionizing Corporate Giving</title>
-  <link rel="stylesheet" href="index.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Altruize - Empowering Impactful Giving</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-yH2X2YkJN74uSdFKTdz+0AQ9ZGfRhT9rB5t+6APAMf1BQ4uPBoafI1AavOWWkSbt6T7NwLdjFphLx4zC2J7ykw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <script defer src="script.js"></script>
+  <!-- Load Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
   <nav>
     <div class="logo">
-      <img src="images/altruize-logo.png" alt="Altruize Logo">
+      <img src="images/altruize-logo.png" alt="Altruize Logo" />
     </div>
-    <div class="menu-toggle">&#9776;</div>
+    <div class="menu-toggle"><i class="fa-solid fa-bars"></i></div>
     <ul>
       <li><a href="#hero">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#solution">Solution</a></li>
-      <li><a href="#benefits">Benefits</a></li>
-      <li><a href="#challenges">Challenges</a></li>
-      <li><a href="#contact">Contact</a></li>
+      <li><a href="#about"><i class="fa-solid fa-info-circle"></i> About</a></li>
+      <li><a href="#solution"><i class="fa-solid fa-lightbulb"></i> Solution</a></li>
+      <li><a href="#benefits"><i class="fa-solid fa-hand-holding-heart"></i> Benefits</a></li>
+      <li><a href="#challenges"><i class="fa-solid fa-triangle-exclamation"></i> Challenges</a></li>
+      <li><a href="#chart"><i class="fa-solid fa-chart-bar"></i> Budget</a></li>
+      <li><a href="#contact"><i class="fa-solid fa-envelope"></i> Contact</a></li>
     </ul>
   </nav>
 
   <section class="hero" id="hero">
     <h1>Welcome to Altruize</h1>
-    <h2>Revolutionizing Corporate Giving & Nonprofit Fundraising</h2>
-    <p>Join us as we transform the philanthropic landscape. With AI-powered matching, Altruize bridges the gap between companies and charities, making giving more strategic, transparent, and impactful.</p>
-    <a href="#about" class="btn">Learn More</a>
+    <h2>Empowering Impactful Giving</h2>
+    <p>
+      Experience a new era of corporate social responsibility. At Altruize, we connect visionary companies with inspiring charities—using AI-driven insights to fuel smarter, more impactful philanthropy.
+    </p>
+    <a href="#about" class="btn">Discover More</a>
   </section>
 
   <div class="container">
     <section id="about">
-      <h2>About Altruize</h2>
-      <p>Founded by industry pioneers Hard Joshi, Jayrup Nakawala, Fatema Doctor, Yogi Patel, and Shyam Jagani, Altruize is a groundbreaking platform that connects corporations with the charities that share their values. Our goal is to simplify the process of corporate giving while ensuring every donation makes a real difference.</p>
+      <h2><i class="fa-solid fa-building"></i> About Us</h2>
+      <p>
+        Altruize is a next-generation platform created by industry pioneers dedicated to transforming the landscape of corporate giving. We simplify the connection between businesses and nonprofits, ensuring that every donation resonates with purpose and transparency.
+      </p>
     </section>
 
     <section id="solution">
-      <h2>The Altruize Solution</h2>
-      <p>At its core, Altruize is a platform designed like a social network for fundraising. Leveraging advanced AI, we intelligently match companies with charities based on missions, values, and impact goals. This innovative approach ensures that each contribution is not only meaningful but also perfectly aligned with corporate social responsibility strategies.</p>
+      <h2><i class="fa-solid fa-lightbulb"></i> Our Solution</h2>
+      <p>
+        Designed like a dynamic social network for philanthropy, Altruize harnesses the power of AI to match companies with charities that share their core values. Our smart platform ensures every partnership is a win-win—driving social impact while strengthening corporate brand and engagement.
+      </p>
       <h3>How It Works</h3>
       <ul>
-        <li>Both donors and charities create detailed profiles outlining their missions, goals, and interests.</li>
-        <li>Our AI-driven system connects companies with nonprofits that share common values.</li>
-        <li>Users can track their impact, learn about causes, and make direct contributions via our integrated platform.</li>
-        <li>Gamification elements such as points and badges encourage continuous engagement.</li>
+        <li><i class="fa-solid fa-user-plus"></i> Create profiles highlighting missions and goals.</li>
+        <li><i class="fa-solid fa-robot"></i> Our AI seamlessly connects businesses with compatible nonprofits.</li>
+        <li><i class="fa-solid fa-chart-line"></i> Track your impact in real time.</li>
+        <li><i class="fa-solid fa-trophy"></i> Enjoy gamified engagement with rewards and badges.</li>
       </ul>
     </section>
 
     <section id="benefits">
-      <h2>Benefits</h2>
+      <h2><i class="fa-solid fa-hand-holding-heart"></i> Benefits</h2>
       <h3>For Charities</h3>
-      <p>Altruize offers nonprofits expanded reach through AI-powered matching, enhanced donor engagement via gamification, and lower fundraising costs by reducing dependency on expensive events. Additionally, our analytics dashboard helps optimize campaigns based on donor behavior.</p>
+      <p>
+        Boost your reach with AI-powered donor matching, engage supporters with interactive campaigns, and reduce traditional fundraising expenses. Our dashboard provides actionable insights to amplify your impact.
+      </p>
       <h3>For Companies</h3>
-      <p>Corporate donors benefit from our precision matching system that aligns contributions with their CSR initiatives. Companies can support causes that resonate with their values, engage employees through innovative programs, and showcase their social responsibility efforts to enhance brand reputation.</p>
+      <p>
+        Enhance your CSR initiatives by partnering with charities that align with your values. Enjoy streamlined impact tracking, employee engagement programs, and the opportunity to elevate your brand with meaningful social contributions.
+      </p>
     </section>
 
     <section id="challenges">
-      <h2>Addressing Challenges</h2>
-      <p>While our solution is innovative, we recognize the challenges that come with change:</p>
+      <h2><i class="fa-solid fa-triangle-exclamation"></i> Challenges & Solutions</h2>
+      <p>
+        We understand that change brings challenges. Here’s how we address them:
+      </p>
       <ul>
-        <li><strong>User Adoption:</strong> We are committed to engaging both charities and companies through targeted outreach, interactive tutorials, and comprehensive support.</li>
-        <li><strong>Algorithm Accuracy & Bias:</strong> Our system undergoes regular audits and improvements, with diverse training data and manual controls to ensure fair and effective matching.</li>
-        <li><strong>Data Security:</strong> We adhere to industry standards like GDPR and CCPA, using strong encryption and robust privacy settings to protect sensitive information.</li>
+        <li>
+          <strong>User Adoption:</strong> Through tailored outreach, immersive tutorials, and dedicated support, we ensure a smooth onboarding for both charities and corporations.
+        </li>
+        <li>
+          <strong>Algorithm Accuracy & Bias:</strong> Our AI undergoes continuous audits and refinement—leveraging diverse datasets and allowing manual adjustments for fairness.
+        </li>
+        <li>
+          <strong>Data Security:</strong> We commit to the highest standards of data protection, adhering to GDPR and CCPA, while employing robust encryption and privacy controls.
+        </li>
       </ul>
+    </section>
+
+    <section id="chart">
+      <h2><i class="fa-solid fa-chart-bar"></i> Budget Allocation</h2>
+      <canvas id="budgetChart"></canvas>
     </section>
   </div>
 
   <footer id="contact">
-    <p>For more information or to get involved, contact us at <a href="mailto:altruize@example.com">altruize@example.com</a></p>
+    <p>
+      <i class="fa-solid fa-envelope"></i> Have questions or want to get involved? Email us at 
+      <a href="mailto:altruize@example.com">altruize@example.com</a>
+    </p>
     <p>&copy; 2025 Altruize. All rights reserved.</p>
     <p>Contributors: Hard Joshi, Jayrup Nakawala, Fatema Doctor, Yogi Patel, Shyam Jagani</p>
   </footer>
