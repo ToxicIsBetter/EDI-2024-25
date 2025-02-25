@@ -1,8 +1,9 @@
-/* Reset and general styles */
+/* Reset and General Styles */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -18,7 +19,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   background-color: rgba(0, 0, 0, 0.9);
-  padding: 20px 40px;
+  padding: 15px 40px;
   position: fixed;
   top: 0;
   width: 100%;
@@ -27,7 +28,7 @@ nav {
 }
 
 nav.scrolled {
-  background-color: #001f3f; /* dark blue tone when scrolled */
+  background-color: #001f3f; /* Darker blue when scrolled */
 }
 
 .logo img {
@@ -37,7 +38,7 @@ nav.scrolled {
 nav ul {
   list-style: none;
   display: flex;
-  gap: 30px;
+  gap: 25px;
 }
 
 nav ul li a {
@@ -49,7 +50,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #00bfff; /* bright blue accent */
+  color: #00bfff; /* Bright blue accent */
 }
 
 /* Mobile Menu Toggle */
@@ -71,12 +72,14 @@ nav ul li a:hover {
   color: #fff;
   text-align: center;
   padding: 0 20px;
-  margin-top: 80px; /* to avoid overlap with fixed navbar */
+  margin-top: 80px;
 }
 
 .hero h1 {
   font-size: 4rem;
+  font-weight: bold;
   margin-bottom: 20px;
+  text-transform: uppercase;
 }
 
 .hero h2 {
@@ -86,6 +89,7 @@ nav ul li a:hover {
 
 .hero p {
   font-size: 1.25rem;
+  max-width: 800px;
   margin-bottom: 30px;
 }
 
@@ -107,55 +111,49 @@ nav ul li a:hover {
 
 /* Main Sections */
 .container {
-  width: 90%;
+  width: 85%;
   max-width: 1200px;
-  margin: 120px auto 50px auto;
+  margin: 100px auto;
   padding: 20px;
 }
 
 section {
   padding: 60px 20px;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
   background-color: #111;
-  border-radius: 8px;
+  border-radius: 10px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
   text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+section:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.7);
 }
 
 section h2 {
   color: #00bfff;
+  font-size: 2rem;
   margin-bottom: 20px;
   text-transform: uppercase;
 }
 
+section p {
+  font-size: 1.2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  font-size: 1.1rem;
+  margin: 10px 0;
+}
+
 /* Footer */
-footer {
-  background-color: #000;
-  color: #666;
-  text-align: center;
-  padding: 40px 20px;
-  border-top: 1px solid #333;
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-  nav ul {
-    flex-direction: column;
-    background: #001f3f;
-    position: fixed;
-    top: 70px;
-    right: -100%;
-    width: 200px;
-    transition: right 0.3s ease;
-    height: calc(100vh - 70px);
-    padding-top: 20px;
-  }
-
-  nav ul.active {
-    right: 0;
-  }
-
-  .menu-toggle {
-    display: block;
-  }
-}
+footer
