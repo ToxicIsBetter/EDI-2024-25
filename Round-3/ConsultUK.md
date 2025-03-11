@@ -6,7 +6,7 @@ An application that allows for the user to give feedback on any of the recent or
 - auth will be handled by the govt. and will require a valid govt. id.
 - the user can ask inbuilt ai to understand the policy better and learn more about the impact it will have.
 - the user can choose which sector they want to 'follow' to get notifications if there are any new policies affecting them.
-- the feedback can be in the form of polls (rating) or text containg suggestions and complaints.
+- the feedback can be in the form of polls (rating) or text containing suggestions and complaints.
 - the top 1000 reviers can be displayed for each policy.
 - users will gain badges as they vote which can be shared on different social media platforms.
 - users can choose to keep their feedback private or public, if public, other users can upvote or downvote the feedback to show their support.
@@ -31,7 +31,7 @@ policy as well as give feedback (within the given time frame)
             |                                                   \
             |                                                   |
             V                                                   V
-Governtment acknowledges the feedback                     Governtment produces the second revision of the policy based
+Governtment acknowledges the feedback                     Government produces the second revision of the policy based
 and approves the policy                                   on the feedback, acknowledging the users whose feedback was
                                                           taken into consideration
                                                                 |
