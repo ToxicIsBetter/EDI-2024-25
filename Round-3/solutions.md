@@ -9,11 +9,17 @@ An application that allows for the user to give feedback on any of the recent or
 - the feedback can be in the form of polls (rating) or text containg suggestions and complaints.
 - the top 1000 reviers can be displayed for each policy.
 - users will gain badges as they vote which can be shared on different social media platforms.
+- users can choose to keep their feedback private or public, if public, other users can upvote or downvote the feedback to show their support.
+- users can vote on other users feedback.
+- users can choose to write a new feedback or just upvote existing related feedback. (when the users write the feedback, they will be suggested other public feedback which share the same concerns based on AI. Users can then choose to post their feedback or choose one of the suggested ones, or both)
 
 
 ## backend features
 - the backend can visualize the data from the feedback on a dashboard and show the user how much they are affected by the policy.
 - ai can categorize the feedback into different categories, allowing for efficient analysis.
+- the backend can also show the user the top 1000 reviers for each policy.
+- allows for admins to create new policies, mentioning how long the policy will be up for review, its summary, the sectors it affects, allow/disallow comments(public feedback).
+- the admins can track which policies are the most active and top feedback a given policy
 
 ## flowchart
 
