@@ -12,9 +12,30 @@ Okay, here is a 10-minute presentation script based on the provided document, fo
 
 ### Slide 3: Problem
 
+- Slow Feedback Mechanisms
+    Traditional methods (e.g., public consultations) take too long to gather and process feedback.
+
+- Lack of public confidence
+    63% of people feel they have little or no say in government decisions (ONS 2023).
+
+- Limited outreach
+    Most people have limited knowledge about government policies affecting them.
+
 **Presenter:** The current landscape of policy development often involves fragmented feedback mechanisms. Public consultations, town hall meetings, and surveys, while valuable, can be time-consuming and may not always capture the full spectrum of public opinion in a timely and efficient manner. There is a need for a system that can gather, analyze, and present public feedback in a more streamlined and insightful way.
 
 ### Slide 4: Solution
+
+- Slow Feedback Mechanisms
+    - allows for public to give feedback much faster reducing delays
+    - for govt, powerful dashboard allows faster analysis and real time insights of the user feedback (agile and data-rich)
+
+- 
+    - offers transparent, secure and personlized feedback system.
+    - acknowledgemnt from the governtment increases public confidence.
+
+- Public Awareness
+    Our solution provides a singular platform for learning about new and existing policies.
+
 
 **Presenter:** ConsultUK offers that solution. It’s a platform designed to enhance citizen engagement and provide policymakers with real-time data and insights into public sentiment. [cite: 32, 33] By leveraging technology, ConsultUK streamlines the feedback process, making it easier for citizens to participate and for policymakers to understand and respond to their concerns. [cite: 34, 35, 36]
 
@@ -26,16 +47,10 @@ Okay, here is a 10-minute presentation script based on the provided document, fo
     
 * **AI-Driven Analysis & Reporting:** ConsultUK uses AI to analyze feedback, identify key themes and trends, and generate customized reports. [cite: 17, 18, 19, 28, 29, 30, 31] These reports can be automatically distributed to relevant departments and exported in various formats. [cite: 28, 29, 30, 31]
     
-
-### Slide 6: Features for Government (continued)
-
-**Presenter:** And there are more features for government users:
-
 * **Secure Government-ID Authentication & Data Flow:** ConsultUK integrates with existing government digital identity infrastructure to securely verify citizens while ensuring privacy. [cite: 3, 4, 5, 6, 7] User data is encrypted and stored separately, with only aggregated, anonymized data used for analysis. [cite: 3, 4, 5, 6, 7]
     
 * **AI Policy Assistant ("civicAI") & Information Dissemination:** civicAI processes policy documents, extracts key information, generates summaries, and monitors for policy updates. [cite: 8, 9, 10, 11] This ensures that policymakers have quick access to essential information. [cite: 8, 9, 10, 11]
     
-
 ### Slide 7: Features for the Public
 
 **Presenter:** Now, let’s explore the features designed for public users.
@@ -44,11 +59,6 @@ Okay, here is a 10-minute presentation script based on the provided document, fo
     
 * **Flexible Feedback & Impact Points:** Citizens can easily submit feedback, which is then categorized and analyzed. [cite: 16, 17, 18, 19] The system also uses Impact Points, awarded based on pre-defined criteria. [cite: 16, 17, 18, 19]
     
-
-### Slide 8: Features for the Public (continued)
-
-**Presenter:** Public users also benefit from:
-
 * **Community Forum (Upvote/Downvote) & Aggregation:** The forum allows citizens to discuss policies, with posts moderated by AI and human moderators. [cite: 20, 21, 22, 23] Upvotes and downvotes help determine the popularity of opinions, and AI summarizes the most popular ones. [cite: 20, 21, 22, 23]
     
 * **Accessibility and Information Access:** Multi-platform access, AI assistance, and features like speech-to-text and language translation ensure that all citizens can participate, regardless of their technical skills or location. [cite: 72, 36]
